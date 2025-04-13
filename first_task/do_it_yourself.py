@@ -1,4 +1,4 @@
-from collections import defaultdict
+ from collections import defaultdict
 from typing import List, Tuple, Dict, Optional
 
 
@@ -74,7 +74,7 @@ class SensorProcessor:
 
     def process_file(self, file_path: str) -> None:
         """
-        Обробляє файл журналу, категоризуючи сенсори за їх станом (хороші або погані).
+        Обробляє файл журналу, категоризуючи датчики за їх станом (хороші або погані).
 
         Аргументи:
             file_path (str): Шлях до файлу для обробки.
@@ -92,11 +92,11 @@ class SensorProcessor:
 
     def update_sensor_state(self, sensor_id: str, state: str, sp1: str, sp2: str) -> None:
         """
-        Оновлює стан сенсора на основі його статусу.
+        Оновлює стан датчика на основі його статусу.
 
         Аргументи:
-            sensor_id (str): Ідентифікатор сенсора.
-            state (str): Стан сенсора.
+            sensor_id (str): Ідентифікатор датчика.
+            state (str): Стан датчика.
             sp1 (str): Перша частина стану.
             sp2 (str): Друга частина стану.
         """
