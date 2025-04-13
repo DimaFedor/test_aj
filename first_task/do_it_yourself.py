@@ -17,7 +17,7 @@ class SensorProcessor:
 
     def process_line(self, line: str) -> Optional[Tuple[str, str, str, str]]:
         """
-        Обробляє рядок тексту та витягує необхідні дані сенсора.
+        Обробляє рядок тексту та витягує необхідні дані датчика.
 
         Аргументи:
             line (str): Рядок для обробки.
