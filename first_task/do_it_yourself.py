@@ -4,7 +4,7 @@ from typing import List, Tuple, Dict, Optional
 
 class SensorProcessor:
     """
-    Клас для обробки даних сенсорів із журналу.
+    Клас для обробки даних датчиків із журналу.
     """
 
     def __init__(self):
